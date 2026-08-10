@@ -20,7 +20,6 @@ A 3-site enterprise WAN built in Cisco Packet Tracer: a Headquarters office and 
 - [Servers](#servers)
 - [Device Inventory](#device-inventory)
 - [Design Notes & Known Quirks](#design-notes--known-quirks)
-- [Getting Started](#getting-started)
 - [Repository Structure](#repository-structure)
 ## Overview
  
