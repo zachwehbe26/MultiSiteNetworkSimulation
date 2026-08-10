@@ -185,7 +185,6 @@ IOS versions in use: `15.4` (R0), `15.1` (R1, R2, R3, R20, R21, all ISPRx), `17.
 A few things worth knowing if you're picking this lab apart:
  
 - **Office 1 and 2 have no voice deployment** despite a `office2_voice_vlan15` pool existing on the central DHCP server — neither R21 nor MS0 has a VLAN 15 interface configured, so that pool currently has no consumers. Packet Tracer makes it quite difficult to create a voice connection over a WAN link.
-- **Office 1's trunk to SW20 allows VLAN 40** even though VLAN 40 (DMZ) is never actually assigned to a port there — harmless, but a leftover from the trunk being cloned off the HQ configuration.
 - **MS0 can't do IPsec**, which is exactly why R21 exists as a separate device.
  
 1. Install [Cisco Packet Tracer](https://www.netacad.com/courses/packet-tracer) — this file was last saved with **version 9.0.0.0810**, so 9.0 or newer is recommended.
