@@ -21,6 +21,7 @@ A 3-site enterprise WAN built in Cisco Packet Tracer: a Headquarters office and 
 - [Device Inventory](#device-inventory)
 - [Design Notes & Known Quirks](#design-notes--known-quirks)
 - [Repository Structure](#repository-structure)
+- [Things To Add](#things-to-add)
 ## Overview
  
 The lab models a company with a Headquarters (HQ) site and two branch offices ("Office 1" and "Office 2"), tied together over a simulated public internet made of four transit routers ("ISP Center 1" and "ISP Center 2"). Each branch reaches HQ over a GRE tunnel wrapped in IPsec, with a single OSPF process (area 0) run consistently across LAN, WAN, and tunnel interfaces so that end-to-end reachability, tunnel-preference, and failover all fall out of the same routing design.
@@ -200,3 +201,9 @@ A few things worth knowing if you're picking this lab apart:
 │   └── networkPrint.png # Logical topology diagram
 └── README.md
 ```
+
+## Things To Add
+
+- ACLs (Unsure where or what to apply 🤔)
+- Wireless networking
+- EtherChannels
